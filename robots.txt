@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /logg-inn.html
+
+Sitemap: https://heggerob.github.io/jobos-web/sitemap.xml

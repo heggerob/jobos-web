@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bytt ut https://heggerob.github.io/jobos-web/ med endelig adresse (f.eks. https://<bruker>.github.io/<repo>/) før lansering. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://heggerob.github.io/jobos-web/</loc><priority>1.0</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/funksjoner.html</loc><priority>0.9</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/fag.html</loc><priority>0.8</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/priser.html</loc><priority>0.9</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/integrasjoner.html</loc><priority>0.7</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/om-oss.html</loc><priority>0.6</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/kontakt.html</loc><priority>0.8</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/last-ned.html</loc><priority>0.7</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/personvern.html</loc><priority>0.3</priority></url>
+  <url><loc>https://heggerob.github.io/jobos-web/vilkar.html</loc><priority>0.3</priority></url>
+</urlset>

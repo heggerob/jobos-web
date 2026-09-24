@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Din jobb | JobOS</title>
+<meta name="description" content="Følg jobben og hent dokumentasjonen.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0B1B2B">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/office.css">
+</head>
+<body class="portal">
+<a class="skip-link" href="#main">Hopp til innhold</a>
+<header class="portal-header">
+  <div class="inner">
+    <span class="portal-company" id="portal-company">Din jobb</span>
+    <a class="powered" href="index.html" aria-label="Levert av JobOS – les mer om JobOS"><span>Levert av</span><img src="assets/logo.svg" alt="JobOS" width="75" height="20"></a>
+  </div>
+</header>
+<main id="main" class="portal-main" tabindex="-1">
+  <div id="portal" aria-live="polite"><p class="loading">Henter jobben …</p></div>
+  <noscript><div class="notice err">Du må slå på JavaScript for å se jobben.</div></noscript>
+  <p class="qp-foot">Siden er delt med deg av firmaet via JobOS. <a href="personvern.html">Personvern</a></p>
+</main>
+<script src="assets/firebase-config.js"></script>
+<script src="assets/firestore.js"></script>
+<script src="assets/jobb.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "JobOS",
+  "short_name": "JobOS",
+  "description": "Ordre, timer, planlegging, tilbud og kjørebok for håndverkere.",
+  "lang": "nb",
+  "start_url": "app.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F4F6F9",
+  "theme_color": "#0B1B2B",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ordre", "url": "app.html#ordre" },
+    { "name": "Timer", "url": "app.html#timer" },
+    { "name": "Planlegging", "url": "app.html#planlegging" }
+  ]
+}
